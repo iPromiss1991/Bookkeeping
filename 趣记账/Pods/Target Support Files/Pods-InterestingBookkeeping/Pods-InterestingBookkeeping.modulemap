@@ -1,0 +1,6 @@
+framework module Pods_InterestingBookkeeping {
+  umbrella header "Pods-InterestingBookkeeping-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-InterestingBookkeeping/Pods-InterestingBookkeeping-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/BGFMDB/BGFMDB.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework
+${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework
+${BUILT_PRODUCTS_DIR}/YYText/YYText.framework

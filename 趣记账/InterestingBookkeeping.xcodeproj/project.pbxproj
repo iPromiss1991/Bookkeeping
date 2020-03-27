@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E04B8F8E094248A2174D582D /* Pods_InterestingBookkeeping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F51BC3A00BE54ED38088456 /* Pods_InterestingBookkeeping.framework */; };
+		FB11402E24230F9800FC683B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB11402D24230F9800FC683B /* AppDelegate.m */; };
+		FB11403924230F9D00FC683B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB11403824230F9D00FC683B /* Assets.xcassets */; };
+		FB11403C24230F9D00FC683B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB11403A24230F9D00FC683B /* LaunchScreen.storyboard */; };
+		FB11403F24230F9D00FC683B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB11403E24230F9D00FC683B /* main.m */; };
+		FB1140462423121700FC683B /* LuanchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB1140452423121700FC683B /* LuanchImage@2x.png */; };
+		FB114049242312CA00FC683B /* QuysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB114048242312CA00FC683B /* QuysViewController.m */; };
+		FB1140502423175E00FC683B /* QuysUITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FB11404F2423175E00FC683B /* QuysUITabBar.m */; };
+		FB11405724231B6200FC683B /* QuysStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB11405624231B6200FC683B /* QuysStatusManager.m */; };
+		FB11405B24231E6C00FC683B /* QuysLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FB11405A24231E6C00FC683B /* QuysLoginModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FB11405F2424609A00FC683B /* QuysRunloopObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = FB11405E2424609A00FC683B /* QuysRunloopObserver.m */; };
+		FB1140CE242C95EC00FC683B /* QuysLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1140CD242C95EC00FC683B /* QuysLoginService.m */; };
+		FB1140D1242CA0F700FC683B /* QuysLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1140D0242CA0F700FC683B /* QuysLoginVC.m */; };
+		FB1140D4242CA1A200FC683B /* QuysNormalTBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1140D3242CA1A200FC683B /* QuysNormalTBCell.m */; };
+		FB1140D7242CA1DC00FC683B /* QuysVerifyTBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1140D6242CA1DC00FC683B /* QuysVerifyTBCell.m */; };
+		FB1140E3242CB82100FC683B /* QuysLoginConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1140E2242CB82100FC683B /* QuysLoginConfigModel.m */; };
+		FBAC89D6242DC193002183A1 /* UITextField+QuysFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAC89D5242DC193002183A1 /* UITextField+QuysFormat.m */; };
+		FBAC89D9242DC27C002183A1 /* NSString+QuysHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAC89D8242DC27C002183A1 /* NSString+QuysHelper.m */; };
+		FBAC89DC242DF2CD002183A1 /* UIButton+QuysConfirm.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAC89DB242DF2CD002183A1 /* UIButton+QuysConfirm.m */; };
+		FBAC89DF242DF5C8002183A1 /* NSObject+QuysSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAC89DE242DF5C8002183A1 /* NSObject+QuysSwizzling.m */; };
+		FBAC89E2242E0635002183A1 /* QuysLoginBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAC89E1242E0635002183A1 /* QuysLoginBottomView.m */; };
+		FBAC89E5242E0894002183A1 /* QuysIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAC89E4242E0894002183A1 /* QuysIconView.m */; };
+		FBAC89E8242E0900002183A1 /* QuysIconModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAC89E7242E0900002183A1 /* QuysIconModel.m */; };
+		FBAC89EB242E0E6A002183A1 /* QuysIconCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAC89EA242E0E6A002183A1 /* QuysIconCollectionCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F51BC3A00BE54ED38088456 /* Pods_InterestingBookkeeping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterestingBookkeeping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79439449210C73E483DB0798 /* Pods-InterestingBookkeeping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterestingBookkeeping.debug.xcconfig"; path = "Target Support Files/Pods-InterestingBookkeeping/Pods-InterestingBookkeeping.debug.xcconfig"; sourceTree = "<group>"; };
+		80D146BEF19FF833D585C864 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEF9C2ED9B47AF2D1AA1FC5 /* Pods-趣记账.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-趣记账.debug.xcconfig"; path = "Target Support Files/Pods-趣记账/Pods-趣记账.debug.xcconfig"; sourceTree = "<group>"; };
+		E3C9A658AC69EE38BA36B96F /* Pods-InterestingBookkeeping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterestingBookkeeping.release.xcconfig"; path = "Target Support Files/Pods-InterestingBookkeeping/Pods-InterestingBookkeeping.release.xcconfig"; sourceTree = "<group>"; };
+		FB11402924230F9800FC683B /* InterestingBookkeeping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterestingBookkeeping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB11402C24230F9800FC683B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB11402D24230F9800FC683B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB11403824230F9D00FC683B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB11403B24230F9D00FC683B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB11403D24230F9D00FC683B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB11403E24230F9D00FC683B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB1140452423121700FC683B /* LuanchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuanchImage@2x.png"; sourceTree = "<group>"; };
+		FB114047242312CA00FC683B /* QuysViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysViewController.h; sourceTree = "<group>"; };
+		FB114048242312CA00FC683B /* QuysViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysViewController.m; sourceTree = "<group>"; };
+		FB11404E2423175E00FC683B /* QuysUITabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysUITabBar.h; sourceTree = "<group>"; };
+		FB11404F2423175E00FC683B /* QuysUITabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysUITabBar.m; sourceTree = "<group>"; };
+		FB11405224231A5400FC683B /* QuysPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysPCH.pch; sourceTree = "<group>"; };
+		FB11405324231AB800FC683B /* QuysCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysCategoryHeader.h; sourceTree = "<group>"; };
+		FB11405524231B6200FC683B /* QuysStatusManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysStatusManager.h; sourceTree = "<group>"; };
+		FB11405624231B6200FC683B /* QuysStatusManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysStatusManager.m; sourceTree = "<group>"; };
+		FB11405924231E6C00FC683B /* QuysLoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysLoginModel.h; sourceTree = "<group>"; };
+		FB11405A24231E6C00FC683B /* QuysLoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysLoginModel.m; sourceTree = "<group>"; };
+		FB11405D2424609A00FC683B /* QuysRunloopObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysRunloopObserver.h; sourceTree = "<group>"; };
+		FB11405E2424609A00FC683B /* QuysRunloopObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysRunloopObserver.m; sourceTree = "<group>"; };
+		FB1140CC242C95EC00FC683B /* QuysLoginService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysLoginService.h; sourceTree = "<group>"; };
+		FB1140CD242C95EC00FC683B /* QuysLoginService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysLoginService.m; sourceTree = "<group>"; };
+		FB1140CF242CA0F700FC683B /* QuysLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysLoginVC.h; sourceTree = "<group>"; };
+		FB1140D0242CA0F700FC683B /* QuysLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysLoginVC.m; sourceTree = "<group>"; };
+		FB1140D2242CA1A200FC683B /* QuysNormalTBCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysNormalTBCell.h; sourceTree = "<group>"; };
+		FB1140D3242CA1A200FC683B /* QuysNormalTBCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysNormalTBCell.m; sourceTree = "<group>"; };
+		FB1140D5242CA1DC00FC683B /* QuysVerifyTBCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysVerifyTBCell.h; sourceTree = "<group>"; };
+		FB1140D6242CA1DC00FC683B /* QuysVerifyTBCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysVerifyTBCell.m; sourceTree = "<group>"; };
+		FB1140DE242CAA6700FC683B /* GlobalMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalMacro.h; sourceTree = "<group>"; };
+		FB1140E0242CAB3100FC683B /* ColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
+		FB1140E1242CB82100FC683B /* QuysLoginConfigModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysLoginConfigModel.h; sourceTree = "<group>"; };
+		FB1140E2242CB82100FC683B /* QuysLoginConfigModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysLoginConfigModel.m; sourceTree = "<group>"; };
+		FBAC89D4242DC193002183A1 /* UITextField+QuysFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+QuysFormat.h"; sourceTree = "<group>"; };
+		FBAC89D5242DC193002183A1 /* UITextField+QuysFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+QuysFormat.m"; sourceTree = "<group>"; };
+		FBAC89D7242DC27C002183A1 /* NSString+QuysHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+QuysHelper.h"; sourceTree = "<group>"; };
+		FBAC89D8242DC27C002183A1 /* NSString+QuysHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+QuysHelper.m"; sourceTree = "<group>"; };
+		FBAC89DA242DF2CD002183A1 /* UIButton+QuysConfirm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+QuysConfirm.h"; sourceTree = "<group>"; };
+		FBAC89DB242DF2CD002183A1 /* UIButton+QuysConfirm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+QuysConfirm.m"; sourceTree = "<group>"; };
+		FBAC89DD242DF5C8002183A1 /* NSObject+QuysSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+QuysSwizzling.h"; sourceTree = "<group>"; };
+		FBAC89DE242DF5C8002183A1 /* NSObject+QuysSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+QuysSwizzling.m"; sourceTree = "<group>"; };
+		FBAC89E0242E0635002183A1 /* QuysLoginBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysLoginBottomView.h; sourceTree = "<group>"; };
+		FBAC89E1242E0635002183A1 /* QuysLoginBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysLoginBottomView.m; sourceTree = "<group>"; };
+		FBAC89E3242E0894002183A1 /* QuysIconView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysIconView.h; sourceTree = "<group>"; };
+		FBAC89E4242E0894002183A1 /* QuysIconView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysIconView.m; sourceTree = "<group>"; };
+		FBAC89E6242E0900002183A1 /* QuysIconModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysIconModel.h; sourceTree = "<group>"; };
+		FBAC89E7242E0900002183A1 /* QuysIconModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysIconModel.m; sourceTree = "<group>"; };
+		FBAC89E9242E0E6A002183A1 /* QuysIconCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysIconCollectionCell.h; sourceTree = "<group>"; };
+		FBAC89EA242E0E6A002183A1 /* QuysIconCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysIconCollectionCell.m; sourceTree = "<group>"; };
+		FBF53E0D13288C0C791CFD65 /* Pods-趣记账.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-趣记账.release.xcconfig"; path = "Target Support Files/Pods-趣记账/Pods-趣记账.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB11402624230F9800FC683B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E04B8F8E094248A2174D582D /* Pods_InterestingBookkeeping.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D4E5DB373B9200292F26928 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACEF9C2ED9B47AF2D1AA1FC5 /* Pods-趣记账.debug.xcconfig */,
+				FBF53E0D13288C0C791CFD65 /* Pods-趣记账.release.xcconfig */,
+				79439449210C73E483DB0798 /* Pods-InterestingBookkeeping.debug.xcconfig */,
+				E3C9A658AC69EE38BA36B96F /* Pods-InterestingBookkeeping.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		20034A2154A4A83E0E3097C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80D146BEF19FF833D585C864 /* Pods____.framework */,
+				2F51BC3A00BE54ED38088456 /* Pods_InterestingBookkeeping.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB11402024230F9800FC683B = {
+			isa = PBXGroup;
+			children = (
+				FB11402B24230F9800FC683B /* 趣记账 */,
+				FB11402A24230F9800FC683B /* Products */,
+				1D4E5DB373B9200292F26928 /* Pods */,
+				20034A2154A4A83E0E3097C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB11402A24230F9800FC683B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB11402924230F9800FC683B /* InterestingBookkeeping.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB11402B24230F9800FC683B /* 趣记账 */ = {
+			isa = PBXGroup;
+			children = (
+				FB1140DF242CAA8600FC683B /* SupportFiles */,
+				FB1140CB242C91B400FC683B /* Database */,
+				FB1140CA242C918C00FC683B /* Classes */,
+				FB11405C2424608600FC683B /* Runloop */,
+				FB11405824231E4E00FC683B /* Login */,
+				FB11405424231B3C00FC683B /* Manager */,
+				FB11404D2423171200FC683B /* Category */,
+				FB1140452423121700FC683B /* LuanchImage@2x.png */,
+				FB11403824230F9D00FC683B /* Assets.xcassets */,
+				FB11403A24230F9D00FC683B /* LaunchScreen.storyboard */,
+				FB11403D24230F9D00FC683B /* Info.plist */,
+				FB11403E24230F9D00FC683B /* main.m */,
+				FB11402C24230F9800FC683B /* AppDelegate.h */,
+				FB11402D24230F9800FC683B /* AppDelegate.m */,
+				FB114047242312CA00FC683B /* QuysViewController.h */,
+				FB114048242312CA00FC683B /* QuysViewController.m */,
+				FB11405224231A5400FC683B /* QuysPCH.pch */,
+			);
+			path = "趣记账";
+			sourceTree = "<group>";
+		};
+		FB11404D2423171200FC683B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FB11405324231AB800FC683B /* QuysCategoryHeader.h */,
+				FB11404E2423175E00FC683B /* QuysUITabBar.h */,
+				FB11404F2423175E00FC683B /* QuysUITabBar.m */,
+				FBAC89D4242DC193002183A1 /* UITextField+QuysFormat.h */,
+				FBAC89D5242DC193002183A1 /* UITextField+QuysFormat.m */,
+				FBAC89D7242DC27C002183A1 /* NSString+QuysHelper.h */,
+				FBAC89D8242DC27C002183A1 /* NSString+QuysHelper.m */,
+				FBAC89DA242DF2CD002183A1 /* UIButton+QuysConfirm.h */,
+				FBAC89DB242DF2CD002183A1 /* UIButton+QuysConfirm.m */,
+				FBAC89DD242DF5C8002183A1 /* NSObject+QuysSwizzling.h */,
+				FBAC89DE242DF5C8002183A1 /* NSObject+QuysSwizzling.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FB11405424231B3C00FC683B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FB11405524231B6200FC683B /* QuysStatusManager.h */,
+				FB11405624231B6200FC683B /* QuysStatusManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FB11405824231E4E00FC683B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FB11405924231E6C00FC683B /* QuysLoginModel.h */,
+				FB11405A24231E6C00FC683B /* QuysLoginModel.m */,
+				FB1140CC242C95EC00FC683B /* QuysLoginService.h */,
+				FB1140CD242C95EC00FC683B /* QuysLoginService.m */,
+				FB1140CF242CA0F700FC683B /* QuysLoginVC.h */,
+				FB1140D0242CA0F700FC683B /* QuysLoginVC.m */,
+				FB1140D2242CA1A200FC683B /* QuysNormalTBCell.h */,
+				FB1140D3242CA1A200FC683B /* QuysNormalTBCell.m */,
+				FB1140D5242CA1DC00FC683B /* QuysVerifyTBCell.h */,
+				FB1140D6242CA1DC00FC683B /* QuysVerifyTBCell.m */,
+				FB1140E1242CB82100FC683B /* QuysLoginConfigModel.h */,
+				FB1140E2242CB82100FC683B /* QuysLoginConfigModel.m */,
+				FBAC89E0242E0635002183A1 /* QuysLoginBottomView.h */,
+				FBAC89E1242E0635002183A1 /* QuysLoginBottomView.m */,
+				FBAC89E3242E0894002183A1 /* QuysIconView.h */,
+				FBAC89E4242E0894002183A1 /* QuysIconView.m */,
+				FBAC89E6242E0900002183A1 /* QuysIconModel.h */,
+				FBAC89E7242E0900002183A1 /* QuysIconModel.m */,
+				FBAC89E9242E0E6A002183A1 /* QuysIconCollectionCell.h */,
+				FBAC89EA242E0E6A002183A1 /* QuysIconCollectionCell.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FB11405C2424608600FC683B /* Runloop */ = {
+			isa = PBXGroup;
+			children = (
+				FB11405D2424609A00FC683B /* QuysRunloopObserver.h */,
+				FB11405E2424609A00FC683B /* QuysRunloopObserver.m */,
+			);
+			path = Runloop;
+			sourceTree = "<group>";
+		};
+		FB1140CA242C918C00FC683B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FB1140CB242C91B400FC683B /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		FB1140DF242CAA8600FC683B /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FB1140E0242CAB3100FC683B /* ColorMacro.h */,
+				FB1140DE242CAA6700FC683B /* GlobalMacro.h */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB11402824230F9800FC683B /* InterestingBookkeeping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB11404224230F9D00FC683B /* Build configuration list for PBXNativeTarget "InterestingBookkeeping" */;
+			buildPhases = (
+				33936F91FF1331D798158B30 /* [CP] Check Pods Manifest.lock */,
+				FB11402524230F9800FC683B /* Sources */,
+				FB11402624230F9800FC683B /* Frameworks */,
+				FB11402724230F9800FC683B /* Resources */,
+				C8416742BA46216FCA87F6E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InterestingBookkeeping;
+			productName = "趣记账";
+			productReference = FB11402924230F9800FC683B /* InterestingBookkeeping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB11402124230F9800FC683B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Quys;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Quys;
+				TargetAttributes = {
+					FB11402824230F9800FC683B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = FB11402424230F9800FC683B /* Build configuration list for PBXProject "InterestingBookkeeping" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB11402024230F9800FC683B;
+			productRefGroup = FB11402A24230F9800FC683B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB11402824230F9800FC683B /* InterestingBookkeeping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB11402724230F9800FC683B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1140462423121700FC683B /* LuanchImage@2x.png in Resources */,
+				FB11403C24230F9D00FC683B /* LaunchScreen.storyboard in Resources */,
+				FB11403924230F9D00FC683B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33936F91FF1331D798158B30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InterestingBookkeeping-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8416742BA46216FCA87F6E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InterestingBookkeeping/Pods-InterestingBookkeeping-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InterestingBookkeeping/Pods-InterestingBookkeeping-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InterestingBookkeeping/Pods-InterestingBookkeeping-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB11402524230F9800FC683B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAC89DC242DF2CD002183A1 /* UIButton+QuysConfirm.m in Sources */,
+				FBAC89D6242DC193002183A1 /* UITextField+QuysFormat.m in Sources */,
+				FBAC89E2242E0635002183A1 /* QuysLoginBottomView.m in Sources */,
+				FB11402E24230F9800FC683B /* AppDelegate.m in Sources */,
+				FB1140CE242C95EC00FC683B /* QuysLoginService.m in Sources */,
+				FB1140D4242CA1A200FC683B /* QuysNormalTBCell.m in Sources */,
+				FB1140502423175E00FC683B /* QuysUITabBar.m in Sources */,
+				FB114049242312CA00FC683B /* QuysViewController.m in Sources */,
+				FBAC89E8242E0900002183A1 /* QuysIconModel.m in Sources */,
+				FB11405B24231E6C00FC683B /* QuysLoginModel.m in Sources */,
+				FBAC89EB242E0E6A002183A1 /* QuysIconCollectionCell.m in Sources */,
+				FB1140E3242CB82100FC683B /* QuysLoginConfigModel.m in Sources */,
+				FBAC89DF242DF5C8002183A1 /* NSObject+QuysSwizzling.m in Sources */,
+				FB11405724231B6200FC683B /* QuysStatusManager.m in Sources */,
+				FBAC89D9242DC27C002183A1 /* NSString+QuysHelper.m in Sources */,
+				FB11405F2424609A00FC683B /* QuysRunloopObserver.m in Sources */,
+				FB1140D1242CA0F700FC683B /* QuysLoginVC.m in Sources */,
+				FBAC89E5242E0894002183A1 /* QuysIconView.m in Sources */,
+				FB1140D7242CA1DC00FC683B /* QuysVerifyTBCell.m in Sources */,
+				FB11403F24230F9D00FC683B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB11403A24230F9D00FC683B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB11403B24230F9D00FC683B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB11404024230F9D00FC683B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB11404124230F9D00FC683B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB11404324230F9D00FC683B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79439449210C73E483DB0798 /* Pods-InterestingBookkeeping.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3LW46M37JG;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$SRCROOT/趣记账/QuysPCH.pch";
+				INFOPLIST_FILE = "趣记账/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quys.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FB11404424230F9D00FC683B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C9A658AC69EE38BA36B96F /* Pods-InterestingBookkeeping.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3LW46M37JG;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$SRCROOT/趣记账/QuysPCH.pch";
+				INFOPLIST_FILE = "趣记账/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quys.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB11402424230F9800FC683B /* Build configuration list for PBXProject "InterestingBookkeeping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB11404024230F9D00FC683B /* Debug */,
+				FB11404124230F9D00FC683B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB11404224230F9D00FC683B /* Build configuration list for PBXNativeTarget "InterestingBookkeeping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB11404324230F9D00FC683B /* Debug */,
+				FB11404424230F9D00FC683B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB11402124230F9800FC683B /* Project object */;
+}

@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://git.coding.net/CocoaPods/Specs.git'
+# platform :ios, '9.0'
+
+target 'InterestingBookkeeping' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for InterestingBookkeeping
+pod 'BGFMDB'
+pod 'YTKNetwork'
+pod 'YYModel'
+pod 'YYText'
+pod 'Masonry'
+pod 'SDWebImage'
+
+end
