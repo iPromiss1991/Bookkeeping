@@ -43,7 +43,7 @@
 /* Begin PBXFileReference section */
 		2F51BC3A00BE54ED38088456 /* Pods_InterestingBookkeeping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterestingBookkeeping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79439449210C73E483DB0798 /* Pods-InterestingBookkeeping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterestingBookkeeping.debug.xcconfig"; path = "Target Support Files/Pods-InterestingBookkeeping/Pods-InterestingBookkeeping.debug.xcconfig"; sourceTree = "<group>"; };
-		80D146BEF19FF833D585C864 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D146BEF19FF833D585C864 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEF9C2ED9B47AF2D1AA1FC5 /* Pods-趣记账.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-趣记账.debug.xcconfig"; path = "Target Support Files/Pods-趣记账/Pods-趣记账.debug.xcconfig"; sourceTree = "<group>"; };
 		E3C9A658AC69EE38BA36B96F /* Pods-InterestingBookkeeping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterestingBookkeeping.release.xcconfig"; path = "Target Support Files/Pods-InterestingBookkeeping/Pods-InterestingBookkeeping.release.xcconfig"; sourceTree = "<group>"; };
 		FB11402924230F9800FC683B /* InterestingBookkeeping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterestingBookkeeping.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -579,7 +579,7 @@
 				DEVELOPMENT_TEAM = 3LW46M37JG;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = "/Users/quys/Bookkeeping/趣记账/InterestingBookkeeping/QuysPCH.pch";
-				INFOPLIST_FILE = "趣记账/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/InterestingBookkeeping/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -600,7 +600,7 @@
 				DEVELOPMENT_TEAM = 3LW46M37JG;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = "/Users/quys/Bookkeeping/趣记账/InterestingBookkeeping/QuysPCH.pch";
-				INFOPLIST_FILE = "趣记账/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/InterestingBookkeeping/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

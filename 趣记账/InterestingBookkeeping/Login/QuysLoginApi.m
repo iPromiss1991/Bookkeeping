@@ -12,6 +12,7 @@
 @implementation QuysLoginApi
 - (NSString *)requestUrl
 {
+    NSAssert(0, @"请配置请求的url");
     return nil;//TODO
 }
 

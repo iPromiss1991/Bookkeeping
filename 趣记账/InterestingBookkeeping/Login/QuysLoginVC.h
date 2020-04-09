@@ -1,6 +1,6 @@
 //
 //  QuysLoginVC.h
-//  趣记账
+//  InterestingBookkeeping
 //
 //  Created by quys on 2020/3/26.
 //  Copyright © 2020 Quys. All rights reserved.
