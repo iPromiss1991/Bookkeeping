@@ -13,5 +13,8 @@ pod 'YYModel'
 pod 'YYText'
 pod 'Masonry'
 pod 'SDWebImage'
+pod 'IQKeyboardManager'
+pod 'YTKNetwork'
+pod 'MBProgressHUD+JDragon'
 
 end
