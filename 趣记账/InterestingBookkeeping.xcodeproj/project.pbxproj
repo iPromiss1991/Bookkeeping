@@ -10,9 +10,7 @@
 		E04B8F8E094248A2174D582D /* Pods_InterestingBookkeeping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F51BC3A00BE54ED38088456 /* Pods_InterestingBookkeeping.framework */; };
 		FB11402E24230F9800FC683B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB11402D24230F9800FC683B /* AppDelegate.m */; };
 		FB11403924230F9D00FC683B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB11403824230F9D00FC683B /* Assets.xcassets */; };
-		FB11403C24230F9D00FC683B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB11403A24230F9D00FC683B /* LaunchScreen.storyboard */; };
 		FB11403F24230F9D00FC683B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB11403E24230F9D00FC683B /* main.m */; };
-		FB1140462423121700FC683B /* LuanchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB1140452423121700FC683B /* LuanchImage@2x.png */; };
 		FB114049242312CA00FC683B /* QuysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB114048242312CA00FC683B /* QuysViewController.m */; };
 		FB1140502423175E00FC683B /* QuysUITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FB11404F2423175E00FC683B /* QuysUITabBar.m */; };
 		FB11405724231B6200FC683B /* QuysStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB11405624231B6200FC683B /* QuysStatusManager.m */; };
@@ -23,6 +21,7 @@
 		FB1140D4242CA1A200FC683B /* QuysNormalTBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1140D3242CA1A200FC683B /* QuysNormalTBCell.m */; };
 		FB1140D7242CA1DC00FC683B /* QuysVerifyTBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1140D6242CA1DC00FC683B /* QuysVerifyTBCell.m */; };
 		FB1140E3242CB82100FC683B /* QuysLoginConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1140E2242CB82100FC683B /* QuysLoginConfigModel.m */; };
+		FB1933CF243F1CD0006D12F2 /* InterestingBookkeeoingLoginLS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1933CE243F1CD0006D12F2 /* InterestingBookkeeoingLoginLS.storyboard */; };
 		FBAC89D6242DC193002183A1 /* UITextField+QuysFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAC89D5242DC193002183A1 /* UITextField+QuysFormat.m */; };
 		FBAC89D9242DC27C002183A1 /* NSString+QuysHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAC89D8242DC27C002183A1 /* NSString+QuysHelper.m */; };
 		FBAC89DC242DF2CD002183A1 /* UIButton+QuysConfirm.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAC89DB242DF2CD002183A1 /* UIButton+QuysConfirm.m */; };
@@ -43,17 +42,15 @@
 /* Begin PBXFileReference section */
 		2F51BC3A00BE54ED38088456 /* Pods_InterestingBookkeeping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterestingBookkeeping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79439449210C73E483DB0798 /* Pods-InterestingBookkeeping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterestingBookkeeping.debug.xcconfig"; path = "Target Support Files/Pods-InterestingBookkeeping/Pods-InterestingBookkeeping.debug.xcconfig"; sourceTree = "<group>"; };
-		80D146BEF19FF833D585C864 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D146BEF19FF833D585C864 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEF9C2ED9B47AF2D1AA1FC5 /* Pods-趣记账.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-趣记账.debug.xcconfig"; path = "Target Support Files/Pods-趣记账/Pods-趣记账.debug.xcconfig"; sourceTree = "<group>"; };
 		E3C9A658AC69EE38BA36B96F /* Pods-InterestingBookkeeping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterestingBookkeeping.release.xcconfig"; path = "Target Support Files/Pods-InterestingBookkeeping/Pods-InterestingBookkeeping.release.xcconfig"; sourceTree = "<group>"; };
 		FB11402924230F9800FC683B /* InterestingBookkeeping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterestingBookkeeping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB11402C24230F9800FC683B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB11402D24230F9800FC683B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FB11403824230F9D00FC683B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FB11403B24230F9D00FC683B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB11403D24230F9D00FC683B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB11403E24230F9D00FC683B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FB1140452423121700FC683B /* LuanchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuanchImage@2x.png"; sourceTree = "<group>"; };
 		FB114047242312CA00FC683B /* QuysViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysViewController.h; sourceTree = "<group>"; };
 		FB114048242312CA00FC683B /* QuysViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysViewController.m; sourceTree = "<group>"; };
 		FB11404E2423175E00FC683B /* QuysUITabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysUITabBar.h; sourceTree = "<group>"; };
@@ -78,6 +75,7 @@
 		FB1140E0242CAB3100FC683B /* ColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
 		FB1140E1242CB82100FC683B /* QuysLoginConfigModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuysLoginConfigModel.h; sourceTree = "<group>"; };
 		FB1140E2242CB82100FC683B /* QuysLoginConfigModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuysLoginConfigModel.m; sourceTree = "<group>"; };
+		FB1933CE243F1CD0006D12F2 /* InterestingBookkeeoingLoginLS.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InterestingBookkeeoingLoginLS.storyboard; sourceTree = "<group>"; };
 		FBAC89D4242DC193002183A1 /* UITextField+QuysFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+QuysFormat.h"; sourceTree = "<group>"; };
 		FBAC89D5242DC193002183A1 /* UITextField+QuysFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+QuysFormat.m"; sourceTree = "<group>"; };
 		FBAC89D7242DC27C002183A1 /* NSString+QuysHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+QuysHelper.h"; sourceTree = "<group>"; };
@@ -173,9 +171,7 @@
 				FB11405824231E4E00FC683B /* Login */,
 				FB11405424231B3C00FC683B /* Manager */,
 				FB11404D2423171200FC683B /* Category */,
-				FB1140452423121700FC683B /* LuanchImage@2x.png */,
 				FB11403824230F9D00FC683B /* Assets.xcassets */,
-				FB11403A24230F9D00FC683B /* LaunchScreen.storyboard */,
 				FB11403D24230F9D00FC683B /* Info.plist */,
 				FB11403E24230F9D00FC683B /* main.m */,
 				FB11402C24230F9800FC683B /* AppDelegate.h */,
@@ -297,6 +293,7 @@
 				FBAC8A0024331FBF002183A1 /* QuysBaseRequest.m */,
 				FBAC8A05243326FC002183A1 /* QuysLoadingIndicator.h */,
 				FBAC8A06243326FC002183A1 /* QuysLoadingIndicator.m */,
+				FB1933CE243F1CD0006D12F2 /* InterestingBookkeeoingLoginLS.storyboard */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -361,8 +358,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB1140462423121700FC683B /* LuanchImage@2x.png in Resources */,
-				FB11403C24230F9D00FC683B /* LaunchScreen.storyboard in Resources */,
+				FB1933CF243F1CD0006D12F2 /* InterestingBookkeeoingLoginLS.storyboard in Resources */,
 				FB11403924230F9D00FC683B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,17 +443,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FB11403A24230F9D00FC683B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB11403B24230F9D00FC683B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FB11404024230F9D00FC683B /* Debug */ = {
@@ -576,7 +561,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3LW46M37JG;
+				DEVELOPMENT_TEAM = DM8LQ9XTTN;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = "/Users/quys/Bookkeeping/趣记账/InterestingBookkeeping/QuysPCH.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/InterestingBookkeeping/Info.plist";
@@ -585,7 +570,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.quys.---";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quys.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -606,7 +591,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.quys.---";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quys.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

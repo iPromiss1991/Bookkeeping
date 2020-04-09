@@ -8,6 +8,8 @@
 
 #import "QuysStatusManager.h"
 #import "QuysLoginWindow.h"
+
+static NSInteger launchTimeIntervel = 1;
 @interface QuysStatusManager()
 @property (nonatomic,strong) QuysLoginWindow *loginWindow;
 
@@ -43,47 +45,49 @@
 - (void)login
 {
     
-    kWeakSelf(self)
-    if (self.currentUser)
-    {
-         //非第一次使用App
-        switch (self.currentUser.loginStatus) {
-            case QuysUserStatusNoneLogin:
-                {
-                    //未登录
-                    QuysLoginWindow *loginWindow = [[QuysLoginWindow alloc] init];
-                    [loginWindow makeKeyAndVisible];
-                    weakself.loginWindow  =loginWindow;
-                }
-                break;
-            case QuysUserStatusLogined:
-                {
-                    //账号密码登陆（未设置手势）
-                    QuysLoginWindow *loginWindow = [[QuysLoginWindow alloc] init];
-                    [loginWindow makeKeyAndVisible];
-                    weakself.loginWindow  =loginWindow;
-                }
-                break;
-            case QuysUserStatusGesture:
-            {
-                //登陆&设置手势
-                QuysLoginWindow *loginWindow = [[QuysLoginWindow alloc] init];
-                [loginWindow makeKeyAndVisible];
-                weakself.loginWindow  =loginWindow;
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(launchTimeIntervel * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+         kWeakSelf(self)
+         if (self.currentUser)
+         {
+              //非第一次使用App
+             switch (self.currentUser.loginStatus) {
+                 case QuysUserStatusNoneLogin:
+                     {
+                         //未登录
+                         QuysLoginWindow *loginWindow = [[QuysLoginWindow alloc] init];
+                         [loginWindow makeKeyAndVisible];
+                         weakself.loginWindow  =loginWindow;
+                     }
+                     break;
+                 case QuysUserStatusLogined:
+                     {
+                         //账号密码登陆（未设置手势）
+                         QuysLoginWindow *loginWindow = [[QuysLoginWindow alloc] init];
+                         [loginWindow makeKeyAndVisible];
+                         weakself.loginWindow  =loginWindow;
+                     }
+                     break;
+                 case QuysUserStatusGesture:
+                 {
+                     //登陆&设置手势
+                     QuysLoginWindow *loginWindow = [[QuysLoginWindow alloc] init];
+                     [loginWindow makeKeyAndVisible];
+                     weakself.loginWindow  =loginWindow;
 
-            }
-            break;
-            default:
-                break;
-        }
-        
-    }else
-    {
-        //第一次使用App(去注册 Or 登陆)
-        QuysLoginWindow *loginWindow = [[QuysLoginWindow alloc] init];
-        [loginWindow makeKeyAndVisible];
-        weakself.loginWindow  =loginWindow;
-    }
+                 }
+                 break;
+                 default:
+                     break;
+             }
+             
+         }else
+         {
+             //第一次使用App(去注册 Or 登陆)
+             QuysLoginWindow *loginWindow = [[QuysLoginWindow alloc] init];
+             [loginWindow makeKeyAndVisible];
+             weakself.loginWindow  =loginWindow;
+         }
+    });
     
 }
 
